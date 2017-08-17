@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clear{
+clear:both;
+}
+
+body{
+    margin:0px!important;
+    position: relative;
+}
+
+.admin_main_header{
+	float: left;
+	width: 100%;
+	background-color: gainsboro;
+}
+
+.admin_main_header .logo{
+	float: left;
+	margin-right: 5%;
+}
+
+.admin_main_header .menu{
+ 
+	margin-top: 1.5%;
+}
+
+.admin_main_header .menu .item{
+	 margin-right: 2%;
+	font-weight: bold;
+	color: #000000;
+}
+
+.admin_main_header .menu a:link {color:#000000;}      /* unvisited link */
+.admin_main_header .menu a:visited {color:#000000;}  /* visited link */
+.admin_main_header .menu a:hover {color:#000000;}  /* mouse over link */
+.admin_main_header .menu a:active {color:#000000;}  /* selected link */
+
+.admin_login{
+    width: 260px;
+    height: 208px;
+    box-shadow: 0px 0px 10px #888888;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.admin_login strong{
+    color: red;
+    margin-top: -15px;
+    display: inline-block;
+    font-size: 13px;
+}
+
+.admin_login input{
+    padding: 5px;    
+}
+
+.clear{
+    clear: both;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: darkgreen!important;
+}
+
+.footer{  border-top: 1px solid #ccc; padding-top: 10px; margin-top: 20px; }
+
+.row-fluid .span12{ margin-left: 0px!important; margin-top: 0px!important;}
+
+.dataTables_filter, .dataTables_length, .dataTables_info, .dataTables_paginate{ display: none;}
+
+.span12{ width: 100%; margin-left: 0px; margin-top: 20px; }
+
+.form-horizontal .control-label{ padding-top: 0px;}
+
+.jqi{ border: 3px solid #FFB90F!important; box-shadow: 0px 1px 1px 2px #888; left: 384px !important;top: 74.6px !important;}
+
+div.jqi .jqiclose{ top: 2px!important; right: 5px!important; background: none!important;}
+div.jqi .jqiclose:hover{ cursor: pointer;}
+
+.logo{ margin: 25px 10px 25px 20px; float: left;}
+
+.navbar{ float: left; width: 80%; margin-top: 25px; margin-bottom: 33px; }
+.navbar-inner{ border-radius: 10px;}
+
+#siteList tr td:last-child .btn{ margin-bottom: 5px} 
+
+.capitalise input{
+    margin-right: 5px;
+    margin-top: -2px;
+    margin-left: 15px;
+}
+
+.capitalise input:first-child{ margin-left: 0px;}
+
+.k-autocomplete, .k-dropdown-wrap.k-state-focused, .k-dropdown-wrap.k-state-hover, .k-numeric-wrap.k-state-focused, .k-numeric-wrap.k-state-hover, .k-picker-wrap.k-state-focused, .k-picker-wrap.k-state-hover
+{
+    bottom:100% !important; top:auto !important;
+
+}
+

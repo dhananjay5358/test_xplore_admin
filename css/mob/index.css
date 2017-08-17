@@ -1,0 +1,376 @@
+body{font-family: "Roboto", Helvetica Neue, Helvetica, Arial, sans-serif!important;}
+.clear{clear:both;}
+a:hover, a:focus{ text-decoration: none!important; outline: 0px auto -webkit-focus-ring-color!important;}
+.btn:focus{outline: 0px auto -webkit-focus-ring-color!important;}
+.panel-group .btn-default.active{background-color: #9CD2CD!important;}
+.panel-group .btn-default:focus, .btn-default.focus {background-color: #FFFFFF!important; outline: none!important;}
+.panel-body  .panel-body .btn-default:focus{background-color: #FFFFFF!important; outline: none!important;}
+.panel-body .btn-default:active{background-color: #FFFFFF!important;}
+.btn-default:hover, .btn-default:focus  > .dropdown-toggle.btn-default{background-color: #FFFFFF!important;}
+.appName{ text-align: center; margin-bottom: 15px;  font-size: 20px!important;}
+#homepage .ui-input-text input{text-align:center;}
+
+.radio + .radio{ margin-top: 10px!important;}
+.ui-btn{ border-style: hidden!important;}
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper{ background-color: #FFF!important;}
+div[data-role="page"].ui-page { background: #fff; }
+.content{ border-width: 0; overflow: visible; overflow-x: hidden;}
+.btn-primary{ background-color: #09a6a3!important; border-color: #09a6a3!important; border: 0px!important;}
+.center{text-align:center;}
+.control-label{color:#008584; font-size: 14px!important;}
+
+.homeHeader{min-height: 55px; background-color: #f3f2f2; border: 0px; color: #020202; padding-top: 15px;}
+#homepage  .homeHeader{background-image: url('../images/headerlogo.png');background-repeat: no-repeat; 
+background-position: center; min-height: 55px; background-color: #f3f2f2; padding-top: 20px;}	
+.help{ padding-top: 2px;}
+
+div[data-role="header"].ui-header { min-height: 55px; background-color: #f3f2f2;  border-bottom: 1px solid #53adac; 
+color: #020202; }
+#homepage {background: url('../images/HomeMap.gif'); background-repeat: repeat; background-size: 100% 100%;}
+#homepage .logo{ text-align: center; padding: 5px; }
+#homepage .welcomeText{ text-align: center;}
+#homepage .title{ font-size: 22px;}
+#homepage .textdes{ margin-top: 10px; margin-bottom: 10px;}
+#homepage .enter_starting_city_address {text-align:center;}
+#homepage .ortext{ padding-top: 15px; padding-bottom: 15px;}
+#homepage .adress_submit{ background: url('../images/getLocation.png');
+    width: 100%; position: relative; padding-top: 9%; padding-bottom: 6%; background-repeat: no-repeat;
+    background-position: center; background-size: 90%; margin-bottom: 0px; border: none;
+    box-shadow: none; float: left; }
+
+#homepage .content{padding-top: 10px; padding-bottom: 50px; background-repeat: repeat;}
+	
+#homepage .enterMsg{ width: 90%; margin: 0 auto;}
+#homepage .getLocation h1{ width: 90%; margin: 0 auto; background-color: #04b9b2; color: #FFF; text-shadow: 0 0px 0 #f3f3f3; padding: 0.6em 1em;     border-radius: 5px;}
+#homepage .mainDiv{ padding-top: 1em; padding-bottom: 1em; color: #FFF; text-shadow: 0 0px 0 #f3f3f3;}
+
+.mapcanvasHeader .backButton	{ float: left; padding-top: 5px; padding-left: 5px; cursor:pointer;}
+.mapcanvasHeader .nextButton{  float: right; padding-top: 5px; padding-right: 5px; cursor: pointer;text-align: right;}
+.mapvanvasHeader{width: 100%; float: left;}
+.mapCanvasFull{}
+#map_canvas{ position: absolute!important; top: 55px; bottom: 0; width: 100%;     height: initial!important;}
+/*#homepage .ui-content{ background: url('../images/map.png'); background-repeat: repeat;} */
+
+
+.single_library_container {float: left; width: 100%; border-bottom: 1px solid #008584!important; padding-top: 10px; padding-bottom: 0px; }
+#itinerary_Ui .single_library_container { border-bottom: 1px solid #FFFFFF!important;}
+.single_library_container .listDescription ul{ list-style-type: none; padding-left: 0px;}
+.single_library_container .hotelName{ font-size: 16px; margin-bottom: 5px;}
+.single_library_container .hotelAdd{font-size: 11px;}
+.hotelAdd, .hotelRating, .hotelPrice, .hotelstatus{ margin-bottom: 5px;}
+.paddingzero{padding-left:0px!important; padding-right:0px!important;}
+.paddingleft{padding-left:15px!important; padding-right:0px!important;}
+.paddingright{padding-left:0px!important; padding-right:15px!important;}
+ 
+.paddingright{padding-right:15px!important;} 
+.rating{ float: left; color: #E7711B;} 
+.hotelRating{float: left; width: 100%;}
+.firstimage{ width: 100px; height: 100px;}
+.single_library_container .readMore{     text-align: center;}
+.single_library_container .readMore .btn{font-size: 18px; padding: 5px; font-weight: bold; background-color: #09a6a3; 
+border: 0px; padding-top: 30px!important; padding-bottom: 30px!important; float: right;}
+.hotelPrice{float: left;}
+.distance{float: left; margin-left:10px;}
+
+.listDetailsView{width:100%;}
+.ListdetailHeader{}
+.ListdetailHeader .HeaderDetails{ background-color: #FFF; color: #008587; padding-left: 5px!important; padding-right: 5px!important;}
+.ListdetailHeader .hotelname{ margin-top: 5px; margin-bottom: 5px; font-size: 16px;}
+.ListdetailHeader .desimage{ width: 100%;}
+.ListdetailHeader  .hotelName{ font-size: 16px;}
+.ListdetailHeader .reviews{}
+.ListdetailHeader .rating{ color: #FFF;}
+.ListdetailHeader .listdetprice{ float: left;}
+.ListdetailHeader .seprate{ margin-left: 10px; margin-right: 10px;}
+.ListdetailHeader .mainStars{ top: 4px;}
+.ListdetailHeader .typeDetails{ text-transform: capitalize;}
+.single_library_container .listDescription{    color: #09a6a3;}
+.paddingtb{ padding-top: 15px; padding-bottom: 15px;}
+.paddingb{ padding-bottom: 15px;}
+.txtright{text-align:right;}
+.ListdetailHeader .backArrow{ position: absolute; top: 10px; left: 10px;}
+.ListdetailHeader .backArrow img{cursor:pointer;}
+.catpadingicon { padding-left: 0px!important; padding-right: 10px!important;}
+.upscaletraditional{ line-height: 15px;}
+ 
+/* catagory page css start from here */
+/* .mainCatagory .col-xs-6{ color: #005B5C; } */
+.mainCatagory{float: left; width: 100%;} 
+.mainCatagory .panel-heading{padding: 0px 15px; float: left; width: 100%;}
+.mainCatagory .panel-default > .panel-heading { color: #FFF!important; border-color: #024947!important; }
+.mainCatagory .eatPanel{background-color: #186a6b!important;}
+.mainCatagory .drinkPanel{background-color: #317a7b!important;}
+.mainCatagory .listenPanel{background-color: #4a8a8a!important;}
+.mainCatagory .watchPanel{background-color: #629999!important;}
+.mainCatagory .doPanel{background-color: #7ba8a9!important;}
+.mainCatagory .eventPanel{background-color: #94b8b8!important;}
+.mainCatagory .refinePanel{background-color: #acc7c7!important;}
+.mainCatagory .paddingleft{padding-left: 13px!important;}
+.slider-example{float: left; width: 100%; padding-bottom: 20px;}
+.catInfo{float: left; color: #FFF; margin-bottom: 10px; width: 100%;}
+.mainCatagory .single_library_container{padding-left: 5px; padding-right: 5px;}
+#CatagoryPage .footer{ border-top: 2px solid #186a6b!important;}
+#nearByPlace .footer{ border-top: 2px solid #186a6b!important;}
+
+.mainCatagory .panel-default > .panel-heading + .panel-collapse > .panel-body{border-top-color: #005B5C!important;}
+.panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group{    border-top: 1px solid #005B5C!important;}
+.mainCatagory .heading{padding: 9px 0px; font-weight: normal;}
+.panel-default{ border-color: #FFF!important;}
+.panel-body{padding:0px!important;}
+.panel-group{margin-bottom:0px!important;}
+#ex1Slider .slider-selection { background: #0b7c7c;}
+#ex1Slider .slider-handle{background: #0b7c7c!important;}
+.panel-group .panel + .panel{ margin-top: 0px!important;} 
+.borderbottom{ border-bottom: 1px solid #186a6b;}
+.slider.slider-horizontal { width: 98%!important; height: 20px; }
+#dis_text, #dis1_text {width:100%; padding-left: 5px;}
+#dis_text{ width: 100%; padding-left: 5px; background-color: #005b5c; color: #FFF; border: 0px solid; width: 30px;}
+.slider-example .white{color: #FFF;}
+.slider-example .miles{text-align: right;}
+.mainCatagory .catborderleftright{ border-left: 1px solid #186a6b!important; border-right: 1px solid #186a6b!important;}
+.mainCatagory .btn{ border-radius: 0px!important;}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img { width: 70%; margin: auto; }
+.carousel{ float: left; width: 100%; border-top: 10px solid #07aea8; border-bottom: 10px solid #07aea8;}
+.carousel .desimage{width: 100%; height: 320px;}
+#myCarousel .left{ background-image: url('../images/previous.png'); background-repeat: no-repeat; background-position: left;}
+#myCarousel .right{ background-image: url('../images/forward.png'); background-repeat: no-repeat;     background-position: right;}
+.ListdetailView .restaurant{ text-align: right; font-size: 12px; text-transform: capitalize; padding-top: 10px; }
+.ListdetailView .hourTime{font-size: 12px; padding-right: 2px!important;float: right;color: #09898a;}
+.detailsHeader{min-height: 55px; background-color: #f3f2f2;
+    padding-top: 20px; border: 0px; color: #020202; background-repeat: no-repeat; background-position: center;}
+.detailsHeader .laocationAdded{    text-align: center; border: 1px solid #008584; padding: 2px; border-radius: 5px; color: #008584;}
+#ListDetail .backButton{ padding-top: 4px; padding-bottom: 4px;}
+#ListDetail .itinerarymainfooter{ border-top: 3px solid #62b2b1;}
+.backButton a, .nextButton a{ color: #008584; text-decoration: none; text-transform: none;}
+.backButton .back{ padding-left: 0px; position: relative; top: 1px;}
+.nextButton .next{ padding-right: 0px;position: relative; top: 1px;}
+.startxploring { text-align: center; position: relative; top: -20px;}
+/* catagory page css end here */
+.itineraryaddButton .plusButton{background-color: #008584;padding-top: 10px; padding-bottom: 10px; border-radius: 150px 150px 0px 0px;}
+#Itinerary .paddingtb { padding-top: 10px!important; padding-bottom: 10px!important; }
+#Itinerary .yetToVisit{ margin-bottom: 0px;}
+#Itinerary .ui-state-default{padding-left: 10px; padding-right: 10px;}
+.paddingCattb{padding-top: 5px; padding-bottom: 5px;}
+.mainCatagory .panel{border: 0px solid transparent!important;}
+.listDescription .firstimage{ padding-bottom: 10px;}
+.openClose{text-align: right;}
+.detailplaceName{ padding-left: 5px!important; position: absolute!important; bottom: 0;font-size: 16px; color: #09898a;}
+ 
+.nav-pills .active::after {     content: "";
+    position: absolute;
+    bottom: -9px;
+    display: block;
+    background-image: url(../images/downarrow.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 10px;}
+/* Accordian Css start here */
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'FontAwesome';
+    content: "\f078";
+    float: right;
+    color: #FFF;
+    font-size: 20px;
+    padding: 7px 0px;
+    padding-left: 20px;
+    position: relative;
+    top: 3px;
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+     content: "\f054";     /* adjust as needed, taken from bootstrap.css */
+}
+/* Accordian Css End here */
+
+.clickToMore
+{
+    background-color: #008584;
+    color: #FFF;
+    text-align: center;
+    padding: 3px;
+}
+
+.reset_tab
+{
+    background-color: #008584;
+    color: #FFF;
+    text-align: center;
+    padding: 3px;
+}
+
+.GrayBar
+{
+    background-color: #4a4a4a!important;
+}
+
+.reset_tab_
+{
+    border-right: 1px solid #FFF;
+    background-color: #008584;
+    color: #FFF;
+    text-align: center;
+    padding: 5px;
+}
+/* Rating Css start here */
+span.stars, span.stars span { display: block; background: url(../images/stars.png) 0 -16px repeat-x; width: 70px; height: 16px;}
+span.stars span { background-position: 0 0; }
+.mainStars{ float: left; position: relative; top: 2px;}
+.reviews{ float: left;  margin-left: 10px;} 
+/* Rating Css end here */
+.handle {
+    height: 25px;
+    width: 25px;
+    float: right;
+	background-position: center;
+    top: 8px; 
+}
+.List_cat .panel-group{border-bottom: 1px solid#fff; margin-bottom: 0px!important;}
+.addItinerary span.stars,.addItinerary span.stars span{background: url(../images/starswhite.png) 0 0px repeat-x;}
+.Del img{ padding-top: 7px; padding-top: 8px; float: right;}
+.addItinerary{background-color:#09a6a3;}
+.addItinerary .listDescription{color:#FFF;}
+.addItinerary .readMore .btn{ background-color: #008584!important;}
+.visitedButton{ border: 1px solid #FFF; text-align: center; cursor:pointer; padding: 5px;}
+.yetToVisit{padding:0px;}
+.yetToVisit li{ list-style-type: none;}
+.itineraryImg{width:100px; height: 100px;}
+.evenItinerary{background-color:#66b6b5;}
+.oddItinerary{background-color:#f5f5f5;}
+#Itinerary{ padding-top: 0px;}
+#Itinerary input[type="checkbox"]{ height: 18px; width: 18px; margin-right: 20px;}
+.oddItinerary .hotelName{ color: #038283; font-size: 16px;}
+.oddItinerary .img-circle{ border: 4px solid #038283;}
+.oddItinerary .itinerarydes{color: #038283; font-size: 12px;}
+.oddItinerary .markAsVisit{color: #038283; font-size: 12px;}
+.visitedorNot .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active { background-color: #008584!important; border-color: #008584!important;}
+.visitedorNot .btn-primary{background-color: #008584!important; border-color: #008584!important; border-radius: 0px!important;}
+#Save_Ui .footer {border-top: 2px solid #008584;}
+.evenItinerary .hotelName{ color: #FFFFFF;}
+.evenItinerary .img-circle{ border: 4px solid #FFFFFF;}
+.evenItinerary .itinerarydes{color: #FFFFFF; font-size: 12px;}
+.markasvisited{ text-align: right; font-size: 11px;}
+.markcheckbox{ padding-right: 20px;}
+.itineraryfooter{ background-color: #008584; padding-top: 10px;  padding-bottom: 10px; color: #FFF;}
+.itineraryfooter .save{padding-left:10px;}
+.itineraryfooter .share{padding-right:10px;}
+.saveitinary{ text-align: center;}
+.shareitinary{ text-align: center;}
+.startexploring{ text-align: center;}
+.startexploring a{ color:#FFF;}
+#itinerary_Ui .edit{}
+.itinerarymainfooter {padding-top: 5px; padding-bottom: 0px;}
+.itineraryfooter #more{margin:0px; padding:0px;}
+.footer{ position: relative; float: left; width: 100%; background-color: #f3f2f2;}
+.addToTour{ background-color: #4a4a4a; margin-bottom: 5px; color: #FFF; text-align: center; font-size: 12px; padding: 2px;}
+#Summery{font-style: italic;}
+
+/* Footer at bottom */
+#itinerary_Ui{ height: 100%;}
+#MyTrips{ height: 100%;}
+
+#itinerary_Ui #uio { margin: 0 auto -35px; height: 100%; }
+#MyTrips #uio{margin: 0 auto -70px; height: 100%;}
+#itinerary_Ui .freezTopSpace{ padding-top: 55px;}
+
+#BuildSearchUi{height: 100%;}
+#Build_Search_Ui{ margin: 0 auto -44px; height: 91%;}
+#NotificationUi{height: 100%;}
+#Notification_Ui{margin: 0 auto -50px; height: 100%;}
+
+
+/* #nearByPlace{height: 100%;} 
+#nearByPlace #uio{margin: 0 auto -49px; height: 100%;} */
+
+.startXploring{ text-align: center; font-size: 16px; padding: 2px;}
+.dropdown-menu li {color: #038283; padding:4px; border-bottom: 1px solid #038283;}
+.dropdown-menu li:last-child{border-bottom: 0px;}
+.sweet-alert .btn-primary{ background-color: #09a6a3; border-color: #09a6a3;}
+.sweet-alert h2{ font-size: 16px!important;}
+.sweet-alert .btn-lg{ padding: 8px 20px; font-size: 14px; border:0px;}
+
+/* Tabs css start from here */
+.nav-pills > li + li{ margin-left: 0px!important;}
+.nav-pills > li{width:50%; background-color: #04b9b1;} 
+.nav-pills > li > a{ color: #FFF; text-align: center;}
+.nav-pills > li > a:hover, .nav-pills > li > a:focus{background-color: #04b9b1!important;}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{background-color: #04b9b1!important;}
+.tableft{ border-right: 1px solid #FFF;}
+.tab-pane{ padding: 10px; float: left; width: 100%; color: #008587; text-align: justify;} 
+.locationVisitunvis{text-align: center; width: 100%; padding: 10px; float: left;}
+.locationVisitunvis input[type="text"]{ width: 100%; text-align: center;}
+#itinerary_Ui .homeHeader{background-image: none;}
+#itinerary_Ui .map{ text-align: center;}
+
+#MyTripList{ float: left; width: 100%; padding-bottom: 0px;}
+#MyTripList ul{padding-left:0px;} 
+#MyTripList ul li{list-style-type: none;}
+#MyTripList .Name{color: #038283; font-size: 14px;}
+#MyTripList .edit{padding-top: 10px;}
+#MyTripList .single_library_container{ border-bottom: 0px!important;} 
+.headingtitle{ padding: 10px; font-size: 16px; text-align: center; background-color: #008584; color: #FFF;}
+#myModal .modal-dialog{margin-top: 165px!important;}
+#myModal .modal-content{text-align: center!important;}
+.mainCatagory .panel-heading{border-top-left-radius: 0px!important; border-top-right-radius: 0px!important;}
+.mainCatagory .panel-group{ float: left; width: 100%;}
+.mainCatagory .panel-group .panel{ float: left; width: 100%;}
+.Notification { background-color: #008584; color: #FFF; }
+
+#ListDetail .detailsHeader{min-height: 55px;}
+#ListDetail .listDetailsView{padding-top: 55px;}
+.evenItinerary .markAsVisit{color:#FFF;}
+#CatagoryPage .freezTopSpace{padding-top: 65px; background-color: #005b5c;}
+.freezTopSpace{padding-top: 65px;}
+
+#MyTrips .generalStatus{font-size: 12px;}
+#MyTrips .tripDesc{ font-size: 11px;}
+
+#Search_ui_Data ul { padding-left: 0px; list-style-type: none;margin-bottom: 0px;} 
+#Search_ui_Data .Name { color: #038283; font-size: 14px; }
+#Search_ui_Data .generalStatus {font-size: 12px;}
+#Search_ui_Data .tripDesc {font-size: 11px;}
+#Search_ui_Data .edit {padding-top: 10px;}
+#Search_ui_Data .paddingtb { padding-top: 10px; padding-bottom: 10px;}
+#BuildSearchUi .freezTopSpace { padding-top: 55px; }
+#NotificationUi ul { padding-left: 0px; list-style-type: none;margin-bottom: 0px;}
+#NotificationUi .footer{ border-bottom: 2px solid #186a6b; }
+#Notification_Ui{ background-color: #186a6b; color:#ffffff; }
+#Tour_map_canvas{ height: 91.5%!important;}
+
+@media only screen and (min-width:240px) {
+}
+
+@media only screen and (max-width:320px) {
+.ListdetailHeader .desimage{width: initial!important;}
+.upscaletraditional{ line-height: 16px;}
+.txtleft{text-align:left;}
+.catborderleft{ padding-left: 14px!important;}
+.itineraryImg{width:60px!important; height: 60px!important;}
+.dropdown-menu > li > a{ padding: 3px 5px!important;}
+.dropdown-menu li img{width:40px; height:40px;}
+}
+
+@media only screen and (max-width:480px) {
+.itineraryImg{width:80px; height: 80px;}
+.carousel .desimage{ height: 185px;}
+}
+
+@media only screen and (max-width:768px){
+.firstimage{ width:132px; height: 100px; padding-bottom: 10px;}
+}
+
+@media only screen and (max-width:800px){
+.ListdetailHeader .desimage{ margin: 0 auto;}
+
+}
+
+@media only screen and (max-width:1024px){
+
+}
+
+@media only screen and (max-width:1366px){
+
+}

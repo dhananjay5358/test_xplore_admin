@@ -1,0 +1,9 @@
+### Composer
+/vendor/
+composer.phar
+
+### phpDocumentor
+phpDocumentor.phar
+
+### JetBrains
+.idea

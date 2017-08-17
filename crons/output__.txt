@@ -1,0 +1,1 @@
+UPDATE Place_detail SET Detail = CASE Venueid END WHERE Venueid IN ();
